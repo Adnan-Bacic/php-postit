@@ -8,9 +8,9 @@ session_start();
 <title>Postit Board</title>
 	
 
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -118,7 +118,7 @@ AND color_id = pi_color.id';
 			<form action="dodeletepostit.php" method="post">
 				<input type="hidden" name="pid" value="<?php echo $pid?>">
 				<div class="delete-img">
-					<input type="image" src="delete-img.png" title="Delete" width="20" height="20" alt="Delete">
+					<input type="image" src="images/delete-img.png" title="Delete" width="20" height="20" alt="Delete">
 				</div>
 			</form>
 		</div>

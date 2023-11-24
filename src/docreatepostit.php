@@ -6,7 +6,7 @@ session_start();
 <head>
 <meta charset="UTF-8">
 <title>Postit Board</title>
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="images/favicon.png">
 </head>
 
 <body>
